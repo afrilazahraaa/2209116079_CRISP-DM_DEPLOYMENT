@@ -5,7 +5,7 @@ import joblib
 
 st.title('Pizza Sales Analysis & Prediction')
 
-url = 'Data_Cleaned.csv'
+url = 'data_cleaned.csv'
 df = pd.read_csv(url)
 
 st.subheader("Dataset")
